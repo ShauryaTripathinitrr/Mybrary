@@ -6,10 +6,10 @@
     <title>My App</title>
 </head>
 <body>
-    Before
     <br>
+    <%- include('../partials/header.ejs') %>
+    <%- include('../partials/errorMessage.ejs') %>
     <%- body %>   <!-- This correctly renders the content of your pages -->
     <br>
-    After
 </body>
 </html>
